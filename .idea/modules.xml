@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../Talk_Python_Training/python-for-entrepreneurs-course-demos/.idea/python-for-entrepreneurs-course-demos.iml" filepath="$PROJECT_DIR$/../Talk_Python_Training/python-for-entrepreneurs-course-demos/.idea/python-for-entrepreneurs-course-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python-for-entrepreneurs-course-demos.iml" filepath="$PROJECT_DIR$/.idea/python-for-entrepreneurs-course-demos.iml" />
     </modules>
   </component>
 </project>
