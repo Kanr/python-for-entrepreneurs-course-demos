@@ -3,7 +3,7 @@ deploy_user: deployer
 ssh_dir: "/Users/admin/.ssh/"
 ssh_key_name: "do_test"
 
-fqdn: " NONE"
+fqdn: " www.kanr.site"
 web_serve_dir: "/var/www/html"
 ssl_cert_email: "kanr@protonmail.com"
 

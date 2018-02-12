@@ -16,5 +16,4 @@
   template: src=nginx_ssl.conf.j2
             dest=/etc/nginx/conf.d/{{ app_name }}.conf
   become: true
-  notify:
-    - restart nginx
+ # notify: - restart nginx
