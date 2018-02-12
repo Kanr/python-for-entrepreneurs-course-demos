@@ -1,7 +1,7 @@
 deploy_group: deployers
 deploy_user: deployer
 ssh_dir: "/Users/admin/.ssh/"
-ssh_key_name: "read_only_key"
+ssh_key_name: "do_test"
 
 fqdn: " NONE"
 web_serve_dir: "/var/www/html"
