@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f2fc57a-fd2d-48b4-8b65-49a5a5a064e4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/group_vars/all" afterPath="$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/group_vars/all" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="all" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/group_vars/all">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="300">
+              <caret line="20" column="69" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,6 +39,46 @@
       </file>
       <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/tasks/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ubuntu.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/tasks/ubuntu.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supervisor_app.conf.j2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/templates/supervisor_app.conf.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nginx_ssl.conf.j2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/templates/nginx_ssl.conf.j2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/init_config/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -186,6 +227,35 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="python-for-entrepreneurs-course-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-for-entrepreneurs-course-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="15-deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="blue_yellow_app_deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-for-entrepreneurs-course-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-for-entrepreneurs-course-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="15-deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="blue_yellow_app_deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="init_config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python-for-entrepreneurs-course-demos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-for-entrepreneurs-course-demos" type="462c0819:PsiDirectoryNode" />
+              <item name="15-deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="blue_yellow_app_deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="init_config" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -272,37 +342,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Talk_Python_Training/python-for-entrepreneurs-course-demos/15-deployment/blue_yellow_app_deployment/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Talk_Python_Training/python-for-entrepreneurs-course-demos/15-deployment/blue_yellow_app_deployment/development.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Talk_Python_Training/python-for-entrepreneurs-course-demos/15-deployment/blue_yellow_app_deployment/deploy/roles/common/handlers/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Talk_Python_Training/python-for-entrepreneurs-course-demos/15-deployment/blue_yellow_app_deployment/deploy/roles/common/templates/nginx_ssl.conf.j2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Talk_Python_Training/python-for-entrepreneurs-course-demos/15-deployment/blue_yellow_app_deployment/deploy/roles/common/templates/supervisor_app.conf.j2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -610,14 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/tasks/git.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -626,10 +657,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/tasks/ubuntu.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/templates/supervisor_app.conf.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/templates/nginx_ssl.conf.j2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/init_config/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/roles/common/tasks/git.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/15-deployment/blue_yellow_app_deployment/deploy/group_vars/all">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="20" column="69" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
