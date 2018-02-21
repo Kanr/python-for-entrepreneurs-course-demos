@@ -40,10 +40,7 @@
 
 
 - name: start nginx
-  service:
-    name: nginx
-    state: started
-    enabled: yes
+  service: name=nginx state=started enabled=yes
   become: true
   when: not certs.stat.exists
 
